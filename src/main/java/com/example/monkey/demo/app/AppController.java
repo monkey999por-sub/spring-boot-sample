@@ -8,6 +8,6 @@ public class AppController {
 
     @GetMapping("/app")
     public String index() {
-        return "app controller run with spring boot";
+        return "app controller run with spring boot!";
     }
 }
